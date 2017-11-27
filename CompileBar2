@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo Compilando ProgressBar2
+#g++ ProgressBar.cpp -o OtherProgressBar -std=c++11 -pthread -lpthread
+g++ ProgressBar2.cpp -o ProgressBar -std=c++11 -pthread -lpthread
